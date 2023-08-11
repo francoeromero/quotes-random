@@ -11,9 +11,49 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background: url(./img/back.jpg) no-repeat center center/cover;
+    /* background: url(./img/back.jpg) no-repeat center center/cover; */
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #d3d3d3 74%);
 }
 
+
+    /* rotulo */
+    .content-circle{
+        display: flex;
+        width: 100%;
+      }
+      .circle{
+        width: 1rem;
+        margin-right: 8px;
+        height: 1rem;
+        border-radius: 50%;
+      }
+      .rojo{
+        background: #f05b5b;
+      }
+      .amarillo{
+        background: #f9d959;
+      }
+      .verde{
+        background: #4CAF50;
+      }
+      .content-name{
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .name{
+        font-size: 1rem;
+      }
+      .rotulo{
+        display: flex;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-top: -2rem;
+        /* margin-bottom: 2rem; */
+        
+      }
 .contenido-centrado{
     display: flex;
     flex-wrap: wrap;
@@ -23,11 +63,12 @@ body {
 
 .contenedor{
     width: 80vw;
+    height: 80vh;
     max-width: 600px;
     min-width: 500px;
     padding: 20px;
-    background-color: white;
-    border: 5px solid black;
+    background: rgb(141, 141, 141);
+    box-shadow: 20px 20px 50px black;
     border-radius: 30px;
 }
 .contenedor-interno{
@@ -42,11 +83,13 @@ body {
 }
 #cita{
     font-size: 32px;
-    width: 100%;
+    width: 40rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    height: 10rem;
     margin: 10px;
 }
 #autor{
